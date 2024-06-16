@@ -1,0 +1,29 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--colorTextPrimary);
+  }
+  li {
+    display: inline-block;
+  }
+  .parent {
+    display: flex;
+    justify-content: left;
+    background-image: url(/src/images/Verh.jpg);
+  }
+  .child{
+    width: 150px;
+    color: white;
+  }
+  .nav-link:hover {
+    font-weight: 400;
+    color: var(--colorTextPrimary);
+  }
+  .hero-foto1{
+    display: flex;
+    margin-left: auto;
+  }
+  .hero-text{
+    text-align: inherit;
+  }
